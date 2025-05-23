@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BERANDA - KostKU</title>
+    <body>
+        <header>
+            <div class="logo">
+            <img src="file:///C:/Users/HP/OneDrive/Pictures/logoku.jpg" width="120px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="beranda.html" class="nav.link">Beranda</a></li>
+                    <li><a href="profile.html" class="nav.link">Tentang Kami</a></li>
+                    <li><a href="masuk.html" class="nav.link">Masuk</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="search-bar">
+            <h2>Mau Cari Kos?</h2>
+            <input type="text" placeholder="Masukkan alamat kost...">
+            <button type="submit">Cari</button>
+             <img src="file:///C:/Users/HP/OneDrive/Pictures/logoku.jpg" width="120px">
+        </div>
+    
+        <div class="content">
+            <p>Selamat datang di KostKU! Temukan kost impianmu dengan mudah.</p>
+        </div>
+    
+
+        <div class="menu_box">
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="logo.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer class="footer">
+            &copy; 2025 KostKU. All rights reserved.
+        </footer>
+    
+        <script>
+            // Javascript untuk fitur pencarian (akan diimplementasikan lebih lanjut)
+            const searchInput = document.querySelector('.search-bar input[type="text"]');
+            const searchButton = document.querySelector('.search-bar button');
+    
+            searchButton.addEventListener('click', function() {
+                const alamat = searchInput.value;
+                alert(`Fitur pencarian untuk alamat: ${alamat} akan segera hadir!`);
+                // Di sini Anda akan menambahkan logika untuk melakukan pencarian berdasarkan alamat
+            });
+        </script>
+    </body>
+</head>
+</html>
